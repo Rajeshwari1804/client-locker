@@ -1,0 +1,746 @@
+{
+  "firms": [
+    {
+      "id": "firm_01",
+      "name": "Vaigai Vel & Associates"
+    }
+  ],
+  "people": [
+    {
+      "id": "p_partner_1",
+      "firm_id": "firm_01",
+      "name": "Kavitha Vel (Partner)",
+      "email": "kavitha@vaigaivel.com",
+      "password": "Partner123!",
+      "role": "partner",
+      "client_id": null,
+      "created_at": "2026-11-01T09:00:00Z"
+    },
+    {
+      "id": "p_partner_2",
+      "firm_id": "firm_01",
+      "name": "Sundar Vel (Partner)",
+      "email": "sundar@vaigaivel.com",
+      "password": "Partner123!",
+      "role": "partner",
+      "client_id": null,
+      "created_at": "2026-11-01T09:00:00Z"
+    },
+    {
+      "id": "p_staff_1",
+      "firm_id": "firm_01",
+      "name": "Priya Raman (Senior Staff)",
+      "email": "priya@vaigaivel.com",
+      "password": "Staff123!",
+      "role": "staff",
+      "client_id": null,
+      "created_at": "2026-11-02T09:00:00Z"
+    },
+    {
+      "id": "p_staff_2",
+      "firm_id": "firm_01",
+      "name": "Karthik Subramanian (Staff)",
+      "email": "karthik@vaigaivel.com",
+      "password": "Staff123!",
+      "role": "staff",
+      "client_id": null,
+      "created_at": "2026-11-02T09:00:00Z"
+    },
+    {
+      "id": "p_staff_3",
+      "firm_id": "firm_01",
+      "name": "Meera Natarajan (Staff)",
+      "email": "meera@vaigaivel.com",
+      "password": "Staff123!",
+      "role": "staff",
+      "client_id": null,
+      "created_at": "2026-11-02T09:00:00Z"
+    },
+    {
+      "id": "p_staff_4",
+      "firm_id": "firm_01",
+      "name": "Suresh Kannan (Staff)",
+      "email": "suresh@vaigaivel.com",
+      "password": "Staff123!",
+      "role": "staff",
+      "client_id": null,
+      "created_at": "2026-11-02T09:00:00Z"
+    },
+    {
+      "id": "p_staff_5",
+      "firm_id": "firm_01",
+      "name": "Ananya Iyer (Staff)",
+      "email": "ananya@vaigaivel.com",
+      "password": "Staff123!",
+      "role": "staff",
+      "client_id": null,
+      "created_at": "2026-11-02T09:00:00Z"
+    },
+    {
+      "id": "p_staff_6",
+      "firm_id": "firm_01",
+      "name": "Dinesh Kumar (Trainee)",
+      "email": "dinesh@vaigaivel.com",
+      "password": "Staff123!",
+      "role": "staff",
+      "client_id": null,
+      "created_at": "2026-11-03T09:00:00Z"
+    },
+    {
+      "id": "p_client_1",
+      "firm_id": "firm_01",
+      "name": "Rajesh (Madurai Spices)",
+      "email": "client1@maduraispices.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_1",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_2",
+      "firm_id": "firm_01",
+      "name": "Lakshmi (Meenakshi Silks)",
+      "email": "client2@meenakshi.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_2",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_3",
+      "firm_id": "firm_01",
+      "name": "Murugan (Vaigai Motors)",
+      "email": "client3@vaigaimotors.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_3",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_4",
+      "firm_id": "firm_01",
+      "name": "Gopal (Pandian Logistics)",
+      "email": "client4@pandian.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_4",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_5",
+      "firm_id": "firm_01",
+      "name": "Saravanan (Temple City Foods)",
+      "email": "client5@templecity.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_5",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_6",
+      "firm_id": "firm_01",
+      "name": "Kannan (Jasmine Textiles)",
+      "email": "client6@jasminetex.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_6",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_7",
+      "firm_id": "firm_01",
+      "name": "Ravi (Thirumalai Granite)",
+      "email": "client7@thirumalai.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_7",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_8",
+      "firm_id": "firm_01",
+      "name": "Bala (Alagar Agri Implements)",
+      "email": "client8@alagaragri.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_8",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_9",
+      "firm_id": "firm_01",
+      "name": "Senthil (Koodal Tech Solutions)",
+      "email": "client9@koodaltech.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_9",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_client_10",
+      "firm_id": "firm_01",
+      "name": "Vijayan (Madura Mills & Trade)",
+      "email": "client10@maduramills.com",
+      "password": "Client123!",
+      "role": "client",
+      "client_id": "c_10",
+      "created_at": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "p_auditor_1",
+      "firm_id": "firm_01",
+      "name": "Raghavan (Statutory Auditor)",
+      "email": "auditor@raghavanca.com",
+      "password": "Auditor123!",
+      "role": "auditor",
+      "client_id": null,
+      "created_at": "2026-11-05T09:00:00Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c_1",
+      "firm_id": "firm_01",
+      "name": "Madurai Spices & Co",
+      "created_at": "2026-11-04T10:00:00Z"
+    },
+    {
+      "id": "c_2",
+      "firm_id": "firm_01",
+      "name": "Meenakshi Silks",
+      "created_at": "2026-11-04T10:01:00Z"
+    },
+    {
+      "id": "c_3",
+      "firm_id": "firm_01",
+      "name": "Vaigai Motors",
+      "created_at": "2026-11-04T10:02:00Z"
+    },
+    {
+      "id": "c_4",
+      "firm_id": "firm_01",
+      "name": "Pandian Logistics",
+      "created_at": "2026-11-04T10:03:00Z"
+    },
+    {
+      "id": "c_5",
+      "firm_id": "firm_01",
+      "name": "Temple City Foods",
+      "created_at": "2026-11-04T10:04:00Z"
+    },
+    {
+      "id": "c_6",
+      "firm_id": "firm_01",
+      "name": "Jasmine Textiles",
+      "created_at": "2026-11-04T10:05:00Z"
+    },
+    {
+      "id": "c_7",
+      "firm_id": "firm_01",
+      "name": "Thirumalai Granite",
+      "created_at": "2026-11-04T10:06:00Z"
+    },
+    {
+      "id": "c_8",
+      "firm_id": "firm_01",
+      "name": "Alagar Agri Implements",
+      "created_at": "2026-11-04T10:07:00Z"
+    },
+    {
+      "id": "c_9",
+      "firm_id": "firm_01",
+      "name": "Koodal Tech Solutions",
+      "created_at": "2026-11-04T10:08:00Z"
+    },
+    {
+      "id": "c_10",
+      "firm_id": "firm_01",
+      "name": "Madura Mills & Trade",
+      "created_at": "2026-11-04T10:09:00Z"
+    }
+  ],
+  "client_access": [
+    {
+      "id": "ca_1",
+      "person_id": "p_staff_1",
+      "client_id": "c_1",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_2",
+      "person_id": "p_staff_1",
+      "client_id": "c_2",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_3",
+      "person_id": "p_staff_1",
+      "client_id": "c_3",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_4",
+      "person_id": "p_staff_2",
+      "client_id": "c_3",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_5",
+      "person_id": "p_staff_2",
+      "client_id": "c_4",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_6",
+      "person_id": "p_staff_2",
+      "client_id": "c_5",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_7",
+      "person_id": "p_staff_3",
+      "client_id": "c_5",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_8",
+      "person_id": "p_staff_3",
+      "client_id": "c_6",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_9",
+      "person_id": "p_staff_3",
+      "client_id": "c_7",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_10",
+      "person_id": "p_staff_4",
+      "client_id": "c_7",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_11",
+      "person_id": "p_staff_4",
+      "client_id": "c_8",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_12",
+      "person_id": "p_staff_5",
+      "client_id": "c_9",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_13",
+      "person_id": "p_staff_5",
+      "client_id": "c_10",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_14",
+      "person_id": "p_staff_6",
+      "client_id": "c_1",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_15",
+      "person_id": "p_staff_6",
+      "client_id": "c_2",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_16",
+      "person_id": "p_auditor_1",
+      "client_id": "c_1",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    },
+    {
+      "id": "ca_17",
+      "person_id": "p_auditor_1",
+      "client_id": "c_2",
+      "given_by": "p_partner_1",
+      "created_at": "2026-11-04T11:00:00Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "f_1",
+      "client_id": "c_1",
+      "uploaded_by": "p_staff_1",
+      "uploader_name": "Priya Raman (Senior Staff)",
+      "name": "March_2026_Bank_Statement.pdf",
+      "storage_path": "docs/samples/March_2026_Bank_Statement.pdf",
+      "file_type": "application/pdf",
+      "file_size": 42100,
+      "checklist_item_id": "chk_1",
+      "created_at": "2026-11-05T14:30:00Z"
+    },
+    {
+      "id": "f_2",
+      "client_id": "c_2",
+      "uploaded_by": "p_staff_1",
+      "uploader_name": "Priya Raman (Senior Staff)",
+      "name": "Q4_GST_Filing_Summary.pdf",
+      "storage_path": "docs/samples/Q4_GST_Filing_Summary.pdf",
+      "file_type": "application/pdf",
+      "file_size": 38900,
+      "checklist_item_id": "chk_6",
+      "created_at": "2026-11-06T11:20:00Z"
+    },
+    {
+      "id": "f_3",
+      "client_id": "c_3",
+      "uploaded_by": "p_staff_2",
+      "uploader_name": "Karthik Subramanian (Staff)",
+      "name": "TDS_Certificate_16A.pdf",
+      "storage_path": "docs/samples/TDS_Certificate_16A.pdf",
+      "file_type": "application/pdf",
+      "file_size": 34500,
+      "checklist_item_id": "chk_13",
+      "created_at": "2026-11-07T16:45:00Z"
+    }
+  ],
+  "checklist_items": [
+    {
+      "id": "chk_1",
+      "client_id": "c_1",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_2",
+      "client_id": "c_1",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_3",
+      "client_id": "c_1",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_4",
+      "client_id": "c_1",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_5",
+      "client_id": "c_1",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_6",
+      "client_id": "c_2",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_7",
+      "client_id": "c_2",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_8",
+      "client_id": "c_2",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_9",
+      "client_id": "c_2",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_10",
+      "client_id": "c_2",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_11",
+      "client_id": "c_3",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_12",
+      "client_id": "c_3",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_13",
+      "client_id": "c_3",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_14",
+      "client_id": "c_3",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_15",
+      "client_id": "c_3",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_16",
+      "client_id": "c_4",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_17",
+      "client_id": "c_4",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_18",
+      "client_id": "c_4",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_19",
+      "client_id": "c_4",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_20",
+      "client_id": "c_4",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_21",
+      "client_id": "c_5",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_22",
+      "client_id": "c_5",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_23",
+      "client_id": "c_5",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_24",
+      "client_id": "c_5",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_25",
+      "client_id": "c_5",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_26",
+      "client_id": "c_6",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_27",
+      "client_id": "c_6",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_28",
+      "client_id": "c_6",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_29",
+      "client_id": "c_6",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_30",
+      "client_id": "c_6",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_31",
+      "client_id": "c_7",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_32",
+      "client_id": "c_7",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_33",
+      "client_id": "c_7",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_34",
+      "client_id": "c_7",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_35",
+      "client_id": "c_7",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_36",
+      "client_id": "c_8",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_37",
+      "client_id": "c_8",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_38",
+      "client_id": "c_8",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_39",
+      "client_id": "c_8",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_40",
+      "client_id": "c_8",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_41",
+      "client_id": "c_9",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_42",
+      "client_id": "c_9",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_43",
+      "client_id": "c_9",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_44",
+      "client_id": "c_9",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_45",
+      "client_id": "c_9",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    },
+    {
+      "id": "chk_46",
+      "client_id": "c_10",
+      "name": "March 2026 Bank Statement",
+      "done": "yes"
+    },
+    {
+      "id": "chk_47",
+      "client_id": "c_10",
+      "name": "Annual GST Summary (GSTR-9)",
+      "done": "no"
+    },
+    {
+      "id": "chk_48",
+      "client_id": "c_10",
+      "name": "TDS Certificate (Form 16A)",
+      "done": "no"
+    },
+    {
+      "id": "chk_49",
+      "client_id": "c_10",
+      "name": "Purchase Bills Q4",
+      "done": "no"
+    },
+    {
+      "id": "chk_50",
+      "client_id": "c_10",
+      "name": "Auditor Trial Balance",
+      "done": "no"
+    }
+  ],
+  "download_links": [],
+  "activity_log": [
+    {
+      "id": "log_1",
+      "person_id": "p_staff_1",
+      "person_name": "Priya Raman",
+      "file_id": "f_1",
+      "file_name": "March_2026_Bank_Statement.pdf",
+      "action": "upload_file",
+      "blocked": "no",
+      "created_at": "2026-11-05T14:30:00Z"
+    },
+    {
+      "id": "log_2",
+      "person_id": "p_staff_1",
+      "person_name": "Priya Raman",
+      "file_id": "f_2",
+      "file_name": "Q4_GST_Filing_Summary.pdf",
+      "action": "upload_file",
+      "blocked": "no",
+      "created_at": "2026-11-06T11:20:00Z"
+    }
+  ]
+}
